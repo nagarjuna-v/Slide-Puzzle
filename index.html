@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widtth, initial-scale=1.0">
+        <title>Slide Picture Puzzle</title>
+        <link rel="stylesheet" href="jquery/jquery-ui.css">
+        <link rel="stylesheet" href="puzzle.css">
+    </head>
+    <body>
+        <h1>Puzzle Picture</h1>
+        <div id="puzzle" class="selector">
+            <div id="title1" class="title"></div>
+            <div id="title2" class="title"></div>
+            <div id="title3" class="title"></div>
+            <div id="title4" class="title"></div>
+            <div id="title5" class="title"></div>
+            <div id="title6" class="title"></div>
+            <div id="title7" class="title"></div>
+            <div id="title8" class="title"></div>
+            <div id="title9" class="title"></div>
+        </div>
+        <button id="startbtn" onclick="shuffle()" >start</button>
+        <div id="main">
+            <h2>Moves: <span id="moves"></span></h2> 
+            <h2>Timer: <span id="timer"></span></h2>
+        </div>
+        <script src="jquery/jquery.min.js"></script>
+        <script src="jquery/jquery-ui.js"></script>
+        <script src="slide.js"></script>
+    </body>
+</html>

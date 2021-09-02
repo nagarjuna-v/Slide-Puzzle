@@ -1,0 +1,55 @@
+#puzzle{
+    width:600px;
+    margin:auto;
+}
+h1{
+    text-align: center;
+}
+
+#timer{
+    text-align: center;
+}
+.title{
+    background-image: url('kgf.jpg');
+    width: 200px;
+    height: 200px;
+    float: left;
+    border:1px solid silver;
+    box-sizing: border-box;
+}
+#startbtn{
+    display:inline;
+    width: 50px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#title1{
+    background-position: 0 0; 
+}
+#title2{
+    background-position: -200px -0px; 
+}
+#title3{
+    background-position: -400px -0px; 
+}
+#title4{
+    background-position: 0 -200px; 
+}
+#title5{
+    background-position: -200px -200px; 
+}
+#title6{
+    background-position: -400px -200px; 
+}
+#title7{
+    background-position: -0 -400px; 
+}
+#title8{
+    background-position: -200px -400px; 
+}
+#title9{
+    background-position: -400px -400px; 
+}
